@@ -10,16 +10,18 @@ public class ReverseString {
 		//Loop through the string in reversing order
 		System.out.println("Original String: " +input);
 
-		//for(int i = input.length()-1; i>=0; i--)
-		for(int i = 0; i<=input.length()-1;i++)
-		{ 
-			//input.length() - 1 starts from the last character of the string.
-			
+		int len=input.length()-1;
+		System.out.println(len);
+		
+		for(int i = 0; i<=len; i++)
+		{ 			
 			reversed = input.charAt(i)+reversed;
-			//reversed +=input.charAt(i);
-
-			//input.charAt(i) gives the character at the i-th index.
-			//Append each character to the new string		
+			//0=H+0;
+			//H=e+H;
+			//eH=l+eH;
+			//leh=l+leh;
+			//lleh=o+lleh
+			//olleH
 		}
 
 		System.out.println("Reversed String: " +reversed);

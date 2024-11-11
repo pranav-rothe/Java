@@ -4,27 +4,28 @@ public class StringPool {
 
 	public static void main(String[] args) 
 	{
-		String a="Aman";
 		String p="Pranav"; //These are the litrals String
+		String y="Pranav"; 
+		String a="Aman";
 		String x="Aman";
-		String y="Pranav";
 		
-		String a1 = new String("Aman");
 		String p1 = new String("Pranav");
-		String x1 = new String("Aman");
 		String y1 = new String("Pranav");
+		String x1 = new String("Aman");
+		String a1 = new String("Aman");
+		
+		if(p==y) {
+			System.out.println("True");
+		}
+		else {
+			System.out.println("False");
+		}		
 		
 		String b=new String("Alex");
 		String b1="Alex";
 		
 		String b2="Alex";
 		
-		if(p==p1) {
-			System.out.println("True");
-		}
-		else {
-			System.out.println("False");
-		}		
 
 	}
 

@@ -14,7 +14,7 @@ public class PrimeOne_To_Hundred {
 				}
 			}
 			if(count==2) {
-				System.out.println(i+" prime number");
+				System.out.print(i+" ");
 			}
 		}
 

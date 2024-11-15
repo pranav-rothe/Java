@@ -18,7 +18,7 @@ public class PlayButtonPattern12 {
 		}
 		for(int i=2;i<=num;i++) {
 			for(int j=1;j<=num;j++) {
-				if(j<=6-i) {
+				if(j<=num+1-i) {
 					System.out.print("*");
 				}
 				else {

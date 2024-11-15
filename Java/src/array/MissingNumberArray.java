@@ -3,7 +3,7 @@ package array;
 public class MissingNumberArray {
 
 	int total;
-	int arr[]= {1, 2, 3, 5, 6, 7, 8, 9, 10};
+	int arr[]= {10,20,30,50};
 
 	public void missingNumber() {
 		total=arr.length+1;//

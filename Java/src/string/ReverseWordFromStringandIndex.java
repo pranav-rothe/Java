@@ -15,7 +15,6 @@ public class ReverseWordFromStringandIndex {
 		int len=str.length-1; //length of string by using length method
 		System.out.println(len);
 		
-		
 		for(int i=len;i>=0;i--){ //reverse the whole string after remove the spaces
 			String x=str[i];    //get each reverse word stored in temporary string x.
 			for(int j=x.length()-1;j>=0;j--) { //for reversing a each word of character or index

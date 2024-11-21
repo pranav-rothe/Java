@@ -8,7 +8,7 @@ public class Pattern8 {
 
 		for(int i=1;i<=num;i++) {
 			for(int j=1;j<=num;j++) {
-				if(j>=6-i) { 
+				if(j>=num-i+1) { 
 					System.out.print("*");
 				}
 				else {

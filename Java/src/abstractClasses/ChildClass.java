@@ -1,8 +1,9 @@
 package abstractClasses;
 
-public class Main extends AbstractClass{
+public class ChildClass extends AbstractClass{
 	
 	public void Dog() {
+		super.horse();
 		System.out.println("Dog");
 	}
 	
@@ -19,15 +20,26 @@ public class Main extends AbstractClass{
 	public int methodInt(int a, int b) {
 		return a+b;
 	}
+	
+	public ChildClass() {
+		super();
+		
+	}
+	
+	public ChildClass(int a) {
+		super(10);
+	}
 
 	public static void main(String[] args) {
 		
-		Main m=new Main();
-		m.animal();
-		m.cat();
+		ChildClass childClass=new ChildClass();
+		childClass.animal();
+		childClass.cat();
 //		m.elephant();
-		System.out.println(m.methodInt(20,10));
-
+		System.out.println(childClass.methodInt(20,10));
+		childClass.Dog();
+		
+		ChildClass c=new ChildClass(10);
 	}
 	
 

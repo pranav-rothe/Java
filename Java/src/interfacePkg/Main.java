@@ -23,8 +23,10 @@ public class Main implements SampleA, SampleB {
 		m.methodOne();
 		m.methodTwo();
 		m.methodThree();
+		System.out.println("-------------------------------");
 		m.a();
 		m.b();
+		System.out.println("-------------------------------");
 		m.commonName();
 		m.shell();
 		SampleA.aman();

@@ -35,6 +35,15 @@ public interface SampleA {
 	void methodTwo();
 	void methodThree();
 	
+	public static void main(String[] args) { //but we create main method in interface
+		System.out.println("main");
+		int a=10;
+		System.out.println(a);
+		
+		//SampleA s=new SampleA();  //in interface we cannot create a object
+		
+	}
+	
 	
 
 }

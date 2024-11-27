@@ -11,7 +11,8 @@ public class S01_ReverseString {
 		System.out.println("Length: "+len);
 		
 		for(int i=len;i>=0;i--) {
-			rev+=org.charAt(i);
+			char c=org.charAt(i);
+			rev+=c;
 		}
 		System.out.println(rev);
 	}

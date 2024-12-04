@@ -22,7 +22,7 @@ public class IteratorTest {
 		
 		while(itrOne.hasNext()) {
 			Integer i=itrOne.next();
-			System.out.print("Itr: "+i+", ");
+			System.out.print(i+" ");
 		}
 		System.out.println();
 		

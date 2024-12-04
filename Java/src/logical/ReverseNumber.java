@@ -6,7 +6,7 @@ public class ReverseNumber {
 	public static void main(String[] args)
 	{
 		int number;
-		int remainder;
+		int digit;
 		int reverse=0;
 		Scanner sc=new Scanner(System.in);
 		
@@ -14,8 +14,8 @@ public class ReverseNumber {
 		number=sc.nextInt();		
 		while(number!=0)
 		{
-			remainder=number%10;
-			reverse=reverse*10+remainder;
+			digit=number%10;
+			reverse=reverse*10+digit;
 			number=number/10;
 		}		
 		System.out.println("Reverse Number: "+reverse);

@@ -21,7 +21,7 @@ public class Two_D_Array {
 				
 			//j=0;0<0;1
 			//j=1;1<0;2
-				System.out.print("Using Simple For Loop: " +a[i][j]+ " ");
+				System.out.print(a[i][j]+ " ");
 						
 			}
 			
@@ -29,7 +29,7 @@ public class Two_D_Array {
 		System.out.println();
 		for(int x[]:a) {
 			for(int y:x)
-			System.out.print("Using For each Loop: " +y+ " ");
+			System.out.print(y+ " ");
 		}
 	}
 

@@ -1,11 +1,11 @@
 package casting;
 
-public class Parent {
+public class A01_Parent {
 	
 	public void parentMethod() {
 		System.out.println("Parent Class Method");
 	}
-	public void selfMethod() {
+	public void parentselfMethod() {
 		System.out.println("Parent Class Self Method");
 	}
 

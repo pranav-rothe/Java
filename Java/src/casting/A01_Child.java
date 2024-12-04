@@ -1,6 +1,6 @@
 package casting;
 
-public class Child extends Parent{
+public class A01_Child extends A01_Parent{
 	
 	public void parentMethod() {
 		System.out.println("Overridden parent class method in child class method");

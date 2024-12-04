@@ -57,12 +57,7 @@ public class ArrayList1 {
 		
 		boolean b=al.isEmpty();
 		System.out.println(b);
-		
-		
-		
-		
-		
-		
+	
 
 	}
 

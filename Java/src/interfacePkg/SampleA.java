@@ -30,7 +30,6 @@ public interface SampleA {
 		pranav();
 	}
 	
-	
 	void methodOne(); 
 	void methodTwo();
 	void methodThree();
@@ -39,6 +38,8 @@ public interface SampleA {
 		System.out.println("main");
 		int a=10;
 		System.out.println(a);
+		pranav(); //only static method can called in interface main method
+		
 		
 		//SampleA s=new SampleA();  //in interface we cannot create a object
 		

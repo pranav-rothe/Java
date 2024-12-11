@@ -21,7 +21,7 @@ public class DemoStringPool {
 		System.out.println(s1==s5);
 		System.out.println(s4==s8);
 		System.out.println(s3==s9);	
-		System.out.println(s4==s5);
+		System.out.println(s4==s5);		
 		
 		String s7=new String("Girl"); //create in heap--1 SCP point 
 		

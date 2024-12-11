@@ -44,6 +44,7 @@ public class ArrayClass {
 		for(int j=0;j<=b.length-1;j++) {
 			System.out.print(b[3]+" ");
 		}
+		
 	}
 
 }

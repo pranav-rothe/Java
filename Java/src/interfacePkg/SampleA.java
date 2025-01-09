@@ -30,6 +30,10 @@ public interface SampleA {
 		pranav();
 	}
 	
+	default void b() {
+		System.out.println("Default method a");
+	}
+	
 	void methodOne(); 
 	void methodTwo();
 	void methodThree();

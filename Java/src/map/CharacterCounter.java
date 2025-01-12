@@ -20,6 +20,8 @@ public class CharacterCounter {
 			}
 		}
 		System.out.println(hm);
+		
+		
 //		Set<Character> allKeys=hm.keySet();
 //		for(Character key: allKeys) {
 //			if(hm.get(key)>1) {
